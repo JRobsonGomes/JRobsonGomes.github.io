@@ -8,18 +8,21 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style-menu.css">
      
     </head>
     <body>
         <header>
             <div class="container">
                 <a href="" class="branch"><img src="./img/logo.png" alt="Minha logo" title="Nome da minha logo"></a>
-                <nav class="menu">
-                    <ul>
-                        <li><a class="menu-link" href="index.html">Início</a></li>
-                        <li><a class="menu-link" href="portfolio.html">Portfólio</a></li>
-                        <li><a class="menu-link" href="contato.html">Contato</a></li>
-                    </ul>
+                <nav class="menu menu-aberto">
+                    <div class="wrap">
+                        <ul class="listaNav">
+                            <li><a class="menu-link" href="index.html">Início</a></li>
+                            <li><a class="menu-link" href="portfolio.html">Portfólio</a></li>
+                            <li><a class="menu-link" href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -39,5 +42,8 @@
                 </div>
             </article>
         </main>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
     </body>
 </html>
