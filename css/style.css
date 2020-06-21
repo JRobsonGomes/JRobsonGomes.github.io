@@ -166,3 +166,30 @@ main {width: 100%;}
 .map {
     margin: 20px 0;
 }
+
+@media (max-width: 600px){
+    .container, .menu ul, .super-card{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .branch{
+        display: none;
+    }
+
+    section h2{
+        margin-bottom: 50px;
+    }
+
+    .super-card-img, .super-card-img img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 100%;
+    }
+}
